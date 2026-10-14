@@ -17,3 +17,10 @@ terraform {
 provider "aws" {
   region = var.region
 }
+
+module "vpc" {
+  source   = "../../modules/vpc"
+  name     = var.name
+  vpc_cidr = var.vpc_cidr
+  az_count = 3
+}
