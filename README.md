@@ -82,3 +82,5 @@ Run this the same day. The NAT Gateway is not free tier.
 
 ## Next steps
 EC2, load balancer, Auto Scaling Group, RDS, S3, IAM and EKS, added one module at a time.
+## Jira tracking
+Work is tracked on a Jira Kanban board (project MDP). Epic: MDP-26, Healthcare Infra on AWS with Terraform.
